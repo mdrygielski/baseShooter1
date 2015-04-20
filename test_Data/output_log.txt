@@ -1,0 +1,682 @@
+Initialize engine version: 5.0.0f4 (5b98b70ebeb9)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvumdshim.dll 9.18.13.2683]
+    Renderer: Intel(R) HD Graphics 4000
+    Vendor:   Intel
+    VRAM:     1994 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 NULL=1 RESZ=0 SlowINTZ=0
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.091 seconds
+desktop: 1024x768 60Hz; virtual: 1024x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\test_Data\Managed\System.dll (this message is harmless)
+Unreliable
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkManager:Start() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:25)
+ 
+(Filename: C:/Users/Marcin/Desktop/Politechnika Wrocławska/baseShooter/Assets/Scripts/NetworkManager.cs Line: 25)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 1710 -> priority: 1 
+Running as server. Player ID is 0.
+UnityEngine.Network:InitializeServer(Int32, Int32, Boolean)
+NetworkManager:StartServer() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:44)
+NetworkManager:OnGUI() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:121)
+
+[C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp line 2493] 
+(Filename: C:/Users/Marcin/Desktop/Politechnika Wrocławska/baseShooter/Assets/Scripts/NetworkManager.cs Line: 44)
+
+Server initialazed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkManager:OnServerInitialized() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:84)
+UnityEngine.Network:InitializeServer(Int32, Int32, Boolean)
+NetworkManager:StartServer() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:44)
+NetworkManager:OnGUI() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:121)
+ 
+(Filename: C:/Users/Marcin/Desktop/Politechnika Wrocławska/baseShooter/Assets/Scripts/NetworkManager.cs Line: 84)
+
+Spawning player
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkManager:SpawnPlayer() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:157)
+NetworkManager:OnServerInitialized() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:87)
+UnityEngine.Network:InitializeServer(Int32, Int32, Boolean)
+NetworkManager:StartServer() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:44)
+NetworkManager:OnGUI() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:121)
+ 
+(Filename: C:/Users/Marcin/Desktop/Politechnika Wrocławska/baseShooter/Assets/Scripts/NetworkManager.cs Line: 157)
+
+Allocating view ID AllocatedID: 1.
+
+UnityEngine.Network:INTERNAL_CALL_Instantiate(Object, Vector3&, Quaternion&, Int32)
+UnityEngine.Network:Instantiate(Object, Vector3, Quaternion, Int32) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\Networking.gen.cs:629)
+NetworkManager:SpawnPlayer() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:158)
+NetworkManager:OnServerInitialized() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:87)
+UnityEngine.Network:InitializeServer(Int32, Int32, Boolean)
+NetworkManager:StartServer() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:44)
+NetworkManager:OnGUI() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:121)
+
+[C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp line 2493] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/Networking.gen.cs Line: 629)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+UnityEngine.Network:INTERNAL_CALL_Instantiate(Object, Vector3&, Quaternion&, Int32)
+UnityEngine.Network:Instantiate(Object, Vector3, Quaternion, Int32) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\Networking.gen.cs:629)
+NetworkManager:SpawnPlayer() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:158)
+NetworkManager:OnServerInitialized() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:87)
+UnityEngine.Network:InitializeServer(Int32, Int32, Boolean)
+NetworkManager:StartServer() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:44)
+NetworkManager:OnGUI() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:121)
+
+[C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp line 2493] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/Networking.gen.cs Line: 629)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+UnityEngine.Network:INTERNAL_CALL_Instantiate(Object, Vector3&, Quaternion&, Int32)
+UnityEngine.Network:Instantiate(Object, Vector3, Quaternion, Int32) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\Networking.gen.cs:629)
+NetworkManager:SpawnPlayer() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:158)
+NetworkManager:OnServerInitialized() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:87)
+UnityEngine.Network:InitializeServer(Int32, Int32, Boolean)
+NetworkManager:StartServer() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:44)
+NetworkManager:OnGUI() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:121)
+
+[C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp line 2493] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/Networking.gen.cs Line: 629)
+
+Attempting to connect to master server at 67.225.180.24:23466
+UnityEngine.MasterServer:RegisterHost(String, String, String)
+NetworkManager:StartServer() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:45)
+NetworkManager:OnGUI() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:121)
+
+[C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp line 2493] 
+(Filename: C:/Users/Marcin/Desktop/Politechnika Wrocławska/baseShooter/Assets/Scripts/NetworkManager.cs Line: 45)
+
+Creating Map
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+GameManager:createMap(Int32) (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\GameManager.cs:30)
+NetworkManager:StartServer() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:48)
+NetworkManager:OnGUI() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:121)
+ 
+(Filename: C:/Users/Marcin/Desktop/Politechnika Wrocławska/baseShooter/Assets/Scripts/GameManager.cs Line: 30)
+
+Removing old Map
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+GameManager:createMap(Int32) (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\GameManager.cs:34)
+NetworkManager:StartServer() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:48)
+NetworkManager:OnGUI() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:121)
+ 
+(Filename: C:/Users/Marcin/Desktop/Politechnika Wrocławska/baseShooter/Assets/Scripts/GameManager.cs Line: 34)
+
+Map has been created
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+GameManager:createMap(Int32) (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\GameManager.cs:37)
+NetworkManager:StartServer() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:48)
+NetworkManager:OnGUI() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:121)
+ 
+(Filename: C:/Users/Marcin/Desktop/Politechnika Wrocławska/baseShooter/Assets/Scripts/GameManager.cs Line: 37)
+
+Rooms generated
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+RoomManager:Update() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\RoomManager.cs:702)
+ 
+(Filename: C:/Users/Marcin/Desktop/Politechnika Wrocławska/baseShooter/Assets/Scripts/RoomManager.cs Line: 702)
+
+Rooms decorated
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+RoomManager:Update() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\RoomManager.cs:705)
+ 
+(Filename: C:/Users/Marcin/Desktop/Politechnika Wrocławska/baseShooter/Assets/Scripts/RoomManager.cs Line: 705)
+
+exit:Room49 (UnityEngine.GameObject)key:Room45 (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+RoomManager:insertKeyAndExit() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\RoomManager.cs:629)
+RoomManager:decorate() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\RoomManager.cs:687)
+RoomManager:Update() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\RoomManager.cs:707)
+ 
+(Filename: C:/Users/Marcin/Desktop/Politechnika Wrocławska/baseShooter/Assets/Scripts/RoomManager.cs Line: 629)
+
+Connected to master server at 67.225.180.24:23466
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
+
+Received identifier 0 from master server
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
+
+Server registered
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkManager:OnMasterServerEvent(MasterServerEvent) (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:98)
+ 
+(Filename: C:/Users/Marcin/Desktop/Politechnika Wrocławska/baseShooter/Assets/Scripts/NetworkManager.cs Line: 98)
+
+Initialize engine version: 5.0.0f4 (5b98b70ebeb9)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvumdshim.dll 9.18.13.2683]
+    Renderer: Intel(R) HD Graphics 4000
+    Vendor:   Intel
+    VRAM:     1994 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 NULL=1 RESZ=0 SlowINTZ=0
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.568 seconds
+desktop: 1024x768 60Hz; virtual: 1024x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\test_Data\Managed\System.dll (this message is harmless)
+Unreliable
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkManager:Start() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:25)
+ 
+(Filename: C:/Users/Marcin/Desktop/Politechnika Wrocławska/baseShooter/Assets/Scripts/NetworkManager.cs Line: 25)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 1924 -> priority: 1 
+Refreshing...
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<RefreshHostList>c__Iterator0:MoveNext() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:57)
+UnityEngine.MonoBehaviour:StartCoroutine(String, Object)
+UnityEngine.MonoBehaviour:StartCoroutine(String) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:77)
+NetworkManager:OnGUI() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:127)
+ 
+(Filename: C:/Users/Marcin/Desktop/Politechnika Wrocławska/baseShooter/Assets/Scripts/NetworkManager.cs Line: 57)
+
+Connected to master server at 67.225.180.24:23466
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
+
+Incoming host list query response from master server.
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
+
+1 servers has been found
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<RefreshHostList>c__Iterator0:MoveNext() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:76)
+ 
+(Filename: C:/Users/Marcin/Desktop/Politechnika Wrocławska/baseShooter/Assets/Scripts/NetworkManager.cs Line: 76)
+
+Refreshing...
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<RefreshHostList>c__Iterator0:MoveNext() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:57)
+UnityEngine.MonoBehaviour:StartCoroutine(String, Object)
+UnityEngine.MonoBehaviour:StartCoroutine(String) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:77)
+NetworkManager:OnGUI() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:127)
+ 
+(Filename: C:/Users/Marcin/Desktop/Politechnika Wrocławska/baseShooter/Assets/Scripts/NetworkManager.cs Line: 57)
+
+Incoming host list query response from master server.
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
+
+1 servers has been found
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<RefreshHostList>c__Iterator0:MoveNext() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:76)
+ 
+(Filename: C:/Users/Marcin/Desktop/Politechnika Wrocławska/baseShooter/Assets/Scripts/NetworkManager.cs Line: 76)
+
+Refreshing...
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<RefreshHostList>c__Iterator0:MoveNext() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:57)
+UnityEngine.MonoBehaviour:StartCoroutine(String, Object)
+UnityEngine.MonoBehaviour:StartCoroutine(String) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:77)
+NetworkManager:OnGUI() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:127)
+ 
+(Filename: C:/Users/Marcin/Desktop/Politechnika Wrocławska/baseShooter/Assets/Scripts/NetworkManager.cs Line: 57)
+
+Connected to master server at 67.225.180.24:23466
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
+
+Incoming host list query response from master server.
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
+
+1 servers has been found
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<RefreshHostList>c__Iterator0:MoveNext() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:76)
+ 
+(Filename: C:/Users/Marcin/Desktop/Politechnika Wrocławska/baseShooter/Assets/Scripts/NetworkManager.cs Line: 76)
+
+Received pong from 192.168.56.1:25002
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 845)
+
+Running as client. No player ID set yet.
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
+
+Received pong from 192.168.43.82:25002
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 845)
+
+Connected to 192.168.56.1:25002
+
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
+
+New connection established (192.168.56.1:57072)
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
+
+New scope index 0 is now in scope for AllocatedID: 0
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
+
+New scope index 0 is now in scope for AllocatedID: 0
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
+
+New scope index 0 is now in scope for AllocatedID: 1
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
+
+Sent initalization to player 1
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
+
+Set player ID to 1
+
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
+
+Client Connected OnPlayerConnected
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkManager:OnPlayerConnected(NetworkPlayer) (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:194)
+ 
+(Filename: C:/Users/Marcin/Desktop/Politechnika Wrocławska/baseShooter/Assets/Scripts/NetworkManager.cs Line: 194)
+
+Creating Map
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+GameManager:createMap(Int32) (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\GameManager.cs:30)
+NetworkManager:createMap(Int32) (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:238)
+ 
+(Filename: C:/Users/Marcin/Desktop/PoliSechnika Wroent host update to r/Assetsmacsters server witr.cs Line: 30)
+
+(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
+
+Removing old Map
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+GameManager:createMap(Int32) (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\GameManager.cs:34)
+NetworkManager:createMap(Int32) (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:238)
+ 
+(Filename: C:/Users/Marcin/Desktop/Politechnika Wrocławska/baseShooter/Assets/Scripts/GameManager.cs Line: 34)
+
+Map has been created
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+GameManager:createMap(Int32) (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\GameManager.cs:37)
+NetworkManager:createMap(Int32) (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:238)
+ 
+(Filename: C:/Users/Marcin/Desktop/Politechnika Wrocławska/baseShooter/Assets/Scripts/GameManager.cs Line: 37)
+
+Received identifier 0 from master server
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
+
+Server registered
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkManager:OnMasterServerEvent(MasterServerEvent) (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:98)
+ 
+(Filename: C:/Users/Marcin/Desktop/Politechnika Wrocławska/baseShooter/Assets/Scripts/NetworkManager.cs Line: 98)
+
+Rooms generated
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+RoomManager:Update() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\RoomManager.cs:702)
+ 
+(Filename: C:/Users/Marcin/Desktop/Politechnika Wrocławska/baseShooter/Assets/Scripts/RoomManager.cs Line: 702)
+
+Rooms decorated
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+RoomManager:Update() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\RoomManager.cs:705)
+ 
+(Filename: C:/Users/Marcin/Desktop/Politechnika Wrocławska/baseShooter/Assets/Scripts/RoomManager.cs Line: 705)
+
+exit:Room49 (UnityEngine.GameObject)key:Room45 (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+RoomManager:insertKeyAndExit() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\RoomManager.cs:629)
+RoomManager:decorate() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\RoomManager.cs:687)
+RoomManager:Update() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\RoomManager.cs:707)
+ 
+(Filename: C:/Users/Marcin/Desktop/Politechnika Wrocławska/baseShooter/Assets/Scripts/RoomManager.cs Line: 629)
+
+Bullets left: 5
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+GunPistol:Update() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\GunPistol.cs:34)
+ 
+(Filename: C:/Users/Marcin/Desktop/Politechnika Wrocławska/baseShooter/Assets/Scripts/GunPistol.cs Line: 34)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
+
+Spawning player
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkManager:SpawnPlayer() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:157)
+NetworkManager:OnGUI() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:133)
+ 
+(Filename: C:/Users/Marcin/Desktop/Politechnika Wrocławska/baseShooter/Assets/Scripts/NetworkManager.cs Line: 157)
+
+Allocating view ID AllocatedID: 150.
+
+UnityEngine.Network:INTERNAL_CALL_Instantiate(Object, Vector3&, Quaternion&, Int32)
+UnityEngine.Network:Instantiate(Object, Vector3, Quaternion, Int32) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\Networking.gen.cs:629)
+NetworkManager:SpawnPlayer() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:158)
+NetworkManager:OnGUI() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:133)
+
+[C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp line 2493] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/Networking.gen.cs Line: 629)
+
+New scope index 0 is now in scope for AllocatedID: 150
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
+
+Bullets left: 4
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+GunPistol:Update() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\GunPistol.cs:34)
+ 
+(Filename: C:/Users/Marcin/Desktop/Politechnika Wrocławska/baseShooter/Assets/Scripts/GunPistol.cs Line: 34)
+
+Bullets left: 5
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+GunPistol:Update() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\GunPistol.cs:34)
+ 
+(Filename: C:/Users/Marcin/Desktop/Politechnika Wrocławska/baseShooter/Assets/Scripts/GunPistol.cs Line: 34)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
+
+Bullets left: 3
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+GunPistol:Update() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\GunPistol.cs:34)
+ 
+(Filename: C:/Users/Marcin/Desktop/Politechnika Wrocławska/baseShooter/Assets/Scripts/GunPistol.cs Line: 34)
+
+Bullets left: 4
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+GunPistol:Update() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\GunPistol.cs:34)
+ 
+(FileAadded :PC '__RMPCNetworkInop/Pntiate'nika Wroc�r.
+ 
+(F/baseShooter/Assets/lave/usitGunPisd/Runtimeine: 34/N
+e
+twork/NetworkManager.cpp Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
+
+Bullets left: 2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+GunPistol:Update() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\GunPistol.cs:34)
+ 
+(Filename: C:/Users/Marcin/Desktop/Politechnika Wrocławska/baseShooter/Assets/Scripts/GunPistol.cs Line: 34)
+
+Bullets left: 3
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+GunPistol:Update() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\GunPistol.cs:34)
+ 
+(Filename: C:/Users/Marcin/Desktop/Politechnika Wrocławska/baseShooter/Assets/Scripts/GunPistol.cs Line: 34)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
+
+Bullets left: 1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+GunPistol:Update() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\GunPistol.cs:34)
+ 
+(Filename: C:/Users/Marcin/Desktop/Politechnika Wrocławska/baseShooter/Assets/Scripts/GunPistol.cs Line: 34)
+
+Bullets left: 2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+GunPistol:Update() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\GunPistol.cs:34)
+ 
+(Filename: C:/Users/Marcin/Desktop/Politechnika Wrocławska/baseShooter/Assets/Scripts/GunPistol.cs Line: 34)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
+
+Bullets left: 0
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+GunPistol:Update() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\GunPistol.cs:34)
+ 
+(Filename: C:/Users/Marcin/Desktop/Politechnika Wrocławska/baseShooter/Assets/Scripts/GunPistol.cs Line: 34)
+
+Reloading: 2 seconds.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+GunPistol:Update() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\GunPistol.cs:38)
+ 
+(Filename: C:/Users/Marcin/Desktop/Politechnika Wrocławska/baseShooter/Assets/Scripts/GunPistol.cs Line: 38)
+
+Bullets left: 1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+GunPistol:Update() (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\GunPistol.cs:34)
+ 
+(Filename: C:/Users/Marcin/Desktop/Politechnika Wrocławska/baseShooter/Assets/Scripts/GunPistol.cs Line: 34)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
+
+A client has disconnected from this server. Player ID 1, IP 192.168.56.1:57072
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
+
+Player disconnected from192.168.56.1:57072
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkManager:OnPlayerDisconnected(NetworkPlayer) (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:170)
+ 
+(Filename: C:/Users/Marcin/Desktop/Politechnika Wrocławska/baseShooter/Assets/Scripts/NetworkManager.cs Line: 170)
+
+RPC __RPCNetworkInstantiate with AllocatedID: 0, player ID 1 and group 0, removed from RPC buffer.
+UnityEngine.Network:INTERNAL_CALL_Internal_RemoveRPCs(NetworkPlayer, NetworkViewID&, UInt32)
+UnityEngine.Network:Internal_RemoveRPCs(NetworkPlayer, NetworkViewID, UInt32) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\Networking.gen.cs:659)
+UnityEngine.Network:RemoveRPCs(NetworkPlayer) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\Networking.gen.cs:665)
+NetworkManager:OnPlayerDisconnected(NetworkPlayer) (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:170)
+
+[C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp line 2493] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/Networking.gen.cs Line: 659)
+
+RPC __RPCNetworkInstantiate with AllocatedID: 0, player ID 1 and group 0, removed from RPC buffer.
+UnityEngine.Network:INTERNAL_CALL_Internal_RemoveRPCs(NetworkPlayer, NetworkViewID&, UInt32)
+UnityEngine.Network:Internal_RemoveRPCs(NetworkPlayer, NetworkViewID, UInt32) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\Networking.gen.cs:659)
+UnityEngine.Network:RemoveRPCs(NetworkPlayer) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\Networking.gen.cs:665)
+NetworkManager:OnPlayerDisconnected(NetworkPlayer) (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:170)
+
+[C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp line 2493] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/Networking.gen.cs Line: 659)
+
+RPC __RPCNetworkInstantiate with AllocatedID: 0, player ID 1 and group 0, removed from RPC buffer.
+UnityEngine.Network:INTERNAL_CALL_Internal_RemoveRPCs(NetworkPlayer, NetworkViewID&, UInt32)
+UnityEngine.Network:Internal_RemoveRPCs(NetworkPlayer, NetworkViewID, UInt32) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\Networking.gen.cs:659)
+UnityEngine.Network:RemoveRPCs(NetworkPlayer) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\Networking.gen.cs:665)
+NetworkManager:OnPlayerDisconnected(NetworkPlayer) (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:170)
+
+[C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp line 2493] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/Networking.gen.cs Line: 659)
+
+RPC __RPCNetworkInstantiate with AllocatedID: 0, player ID 1 and group 0, removed from RPC buffer.
+UnityEngine.Network:INTERNAL_CALL_Internal_RemoveRPCs(NetworkPlayer, NetworkViewID&, UInt32)
+UnityEngine.Network:Internal_RemoveRPCs(NetworkPlayer, NetworkViewID, UInt32) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\Networking.gen.cs:659)
+UnityEngine.Network:RemoveRPCs(NetworkPlayer) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\Networking.gen.cs:665)
+NetworkManager:OnPlayerDisconnected(NetworkPlayer) (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:170)
+
+[C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp line 2493] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/Networking.gen.cs Line: 659)
+
+RPC __RPCNetworkInstantiate with AllocatedID: 0, player ID 1 and group 0, removed from RPC buffer.
+UnityEngine.Network:INTERNAL_CALL_Internal_RemoveRPCs(NetworkPlayer, NetworkViewID&, UInt32)
+UnityEngine.Network:Internal_RemoveRPCs(NetworkPlayer, NetworkViewID, UInt32) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\Networking.gen.cs:659)
+UnityEngine.Network:RemoveRPCs(NetworkPlayer) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\Networking.gen.cs:665)
+NetworkManager:OnPlayerDisconnected(NetworkPlayer) (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:170)
+
+[C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp line 2493] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/Networking.gen.cs Line: 659)
+
+RPC __RPCNetworkInstantiate with AllocatedID: 0, player ID 1 and group 0, removed from RPC buffer.
+UnityEngine.Network:INTERNAL_CALL_Internal_RemoveRPCs(NetworkPlayer, NetworkViewID&, UInt32)
+UnityEngine.Network:Internal_RemoveRPCs(NetworkPlayer, NetworkViewID, UInt32) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\Networking.gen.cs:659)
+UnityEngine.Network:RemoveRPCs(NetworkPlayer) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\Networking.gen.cs:665)
+NetworkManager:OnPlayerDisconnected(NetworkPlayer) (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:170)
+
+[C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp line 2493] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/Networking.gen.cs Line: 659)
+
+RPC __RPCNetworkInstantiate with AllocatedID: 0, player ID 1 and group 0, removed from RPC buffer.
+UnityEngine.Network:INTERNAL_CALL_Internal_RemoveRPCs(NetworkPlayer, NetworkViewID&, UInt32)
+UnityEngine.Network:Internal_RemoveRPCs(NetworkPlayer, NetworkViewID, UInt32) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\Networking.gen.cs:659)
+UnityEngine.Network:RemoveRPCs(NetworkPlayer) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\Networking.gen.cs:665)
+NetworkManager:OnPlayerDisconnected(NetworkPlayer) (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:170)
+
+[C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp line 2493] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/Networking.gen.cs Line: 659)
+
+RPC __RPCNetworkInstantiate with AllocatedID: 0, player ID 1 and group 0, removed from RPC buffer.
+UnityEngine.Network:INTERNAL_CALL_Internal_RemoveRPCs(NetworkPlayer, NetworkViewID&, UInt32)
+UnityEngine.Network:Internal_RemoveRPCs(NetworkPlayer, NetworkViewID, UInt32) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\Networking.gen.cs:659)
+UnityEngine.Network:RemoveRPCs(NetworkPlayer) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\Networking.gen.cs:665)
+NetworkManager:OnPlayerDisconnected(NetworkPlayer) (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:170)
+
+[C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp line 2493] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/Networking.gen.cs Line: 659)
+
+RPC __RPCNetworkInstantiate with AllocatedID: 0, player ID 1 and group 0, removed from RPC buffer.
+UnityEngine.Network:INTERNAL_CALL_Internal_RemoveRPCs(NetworkPlayer, NetworkViewID&, UInt32)
+UnityEngine.Network:Internal_RemoveRPCs(NetworkPlayer, NetworkViewID, UInt32) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\Networking.gen.cs:659)
+UnityEngine.Network:RemoveRPCs(NetworkPlayer) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\Networking.gen.cs:665)
+NetworkManager:OnPlayerDisconnected(NetworkPlayer) (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:170)
+
+[C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp line 2493] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/Networking.gen.cs Line: 659)
+
+RPC __RPCNetworkInstantiate with AllocatedID: 0, player ID 1 and group 0, removed from RPC buffer.
+UnityEngine.Network:INTERNAL_CALL_Internal_RemoveRPCs(NetworkPlayer, NetworkViewID&, UInt32)
+UnityEngine.Network:Internal_RemoveRPCs(NetworkPlayer, NetworkViewID, UInt32) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\Networking.gen.cs:659)
+UnityEngine.Network:RemoveRPCs(NetworkPlayer) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\Networking.gen.cs:665)
+NetworkManager:OnPlayerDisconnected(NetworkPlayer) (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:170)
+
+[C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp line 2493] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/Networking.gen.cs Line: 659)
+
+RPC __RPCNetworkInstantiate with AllocatedID: 0, player ID 1 and group 0, removed from RPC buffer.
+UnityEngine.Network:INTERNAL_CALL_Internal_RemoveRPCs(NetworkPlayer, NetworkViewID&, UInt32)
+UnityEngine.Network:Internal_RemoveRPCs(NetworkPlayer, NetworkViewID, UInt32) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\Networking.gen.cs:659)
+UnityEngine.Network:RemoveRPCs(NetworkPlayer) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\Networking.gen.cs:665)
+NetworkManager:OnPlayerDisconnected(NetworkPlayer) (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:170)
+
+[C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp line 2493] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/Networking.gen.cs Line: 659)
+
+RPC __RPCNetworkInstantiate with AllocatedID: 0, player ID 1 and group 0, removed from RPC buffer.
+UnityEngine.Network:INTERNAL_CALL_Internal_RemoveRPCs(NetworkPlayer, NetworkViewID&, UInt32)
+UnityEngine.Network:Internal_RemoveRPCs(NetworkPlayer, NetworkViewID, UInt32) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\Networking.gen.cs:659)
+UnityEngine.Network:RemoveRPCs(NetworkPlayer) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\Networking.gen.cs:665)
+NetworkManager:OnPlayerDisconnected(NetworkPlayer) (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:170)
+
+[C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp line 2493] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/Networking.gen.cs Line: 659)
+
+12 RPC function were removed with RemoveRPC
+UnityEngine.Network:INTERNAL_CALL_Internal_RemoveRPCs(NetworkPlayer, NetworkViewID&, UInt32)
+UnityEngine.Network:Internal_RemoveRPCs(NetworkPlayer, NetworkViewID, UInt32) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\Networking.gen.cs:659)
+UnityEngine.Network:RemoveRPCs(NetworkPlayer) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\Networking.gen.cs:665)
+NetworkManager:OnPlayerDisconnected(NetworkPlayer) (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:170)
+
+[C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp line 2493] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/Networking.gen.cs Line: 659)
+
+Destroying objects belonging to player 1
+UnityEngine.Network:DestroyPlayerObjects(NetworkPlayer)
+NetworkManager:OnPlayerDisconnected(NetworkPlayer) (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:176)
+
+[C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp line 2493] 
+(Filename: C:/Users/Marcin/Desktop/Politechnika Wrocławska/baseShooter/Assets/Scripts/NetworkManager.cs Line: 176)
+
+Destroying object with view ID 'AllocatedID: 150'
+UnityEngine.Network:DestroyPlayerObjects(NetworkPlayer)
+NetworkManager:OnPlayerDisconnected(NetworkPlayer) (at C:\Users\Marcin\Desktop\Politechnika Wrocławska\baseShooter\Assets\Scripts\NetworkManager.cs:176)
+
+[C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp line 1388] 
+(Filename: C:/Users/Marcin/Desktop/Politechnika Wrocławska/baseShooter/Assets/Scripts/NetworkManager.cs Line: 176)
+
+Sent host update to master server with identifier 0
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
+

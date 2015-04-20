@@ -1,0 +1,19 @@
++ generacja mapy
+- deokorowanie mapy
+- spawn enemy
+- AI
+- minimapa
++ zestawienie po³¹czenia sieciowego
++ synchronizacja mapy klient-serwer
+- cechy gracza
+- rodzaje broni
+- logika gry
+- mechanika klucz-drzwi (na bazie drzewa), wêz³y
+- menu
+- GUI
+- interakcja z otoczeniem
++ kontroler gracza (podstawowy)
+- strzelanie
+- dekoracja modelu gracza
+- dekoraja modelow przeciwników
+- animacja
